@@ -45,6 +45,12 @@ public class Node {
 			return false;
 		return true;
 	}
+
+	@Override
+	public String toString() {
+		return "Node [name=" + name + "]";
+	}
+	
 	
 	
 }
