@@ -10,12 +10,17 @@ public class Graph {
 	 * contains() operation costs. */
 	private HashMap<Node,HashSet<Node>> adjList;
 
-	public Graph(HashMap<Node, HashSet<Node>> adjList) {
+	public Graph(){
 		adjList = new HashMap<>();
 	}
-	
+
 	public int numberOfNodes() {
 		return adjList.size();
 	}
-	
+
+	public void addUndirectEdge(Node u1, Node u2) {
+		// TODO Auto-generated method stub
+		
+	}
+
 }
